@@ -1,19 +1,15 @@
+
 from src.domain.bar import Bar
 from src.controller.bartender import Bartender
 from src.domain.jrBartender import JuniorBartender
 from src.domain.srBartender import SeniorBartender
-from src.view.view import BarView, BarController
+from src.view.view import BarView
+from src.controller.controller import BarController
 
 if __name__ == "__main__":
       bar = Bar()
       view = BarView()
-      controller = BarController(bar, view)
-
-      '''builder = TragoBuilder()    
-      trago = builder.set_nombre("Agua") \
-                        .set_precio(500) \
-                        .set_contenidoAlcohol(0) \
-                        .build()'''
+      controller = BarController(bar, view)      
 
       # Chain
       junior_bartender = JuniorBartender("Juan Perez")
@@ -25,15 +21,7 @@ if __name__ == "__main__":
       menu = [{"nombre": "Sprite", "type": "Bebida sin alcohol", "precio": 800},
             {"nombre": "Whisky", "type": "Bebida con alcohol", "precio": 1800},
             {"nombre": "Jugo", "type": "Bebida sin alcohol", "precio": 450}]
-
       view.show_menu(menu)
-
-      pedidos = [{"nombre": "Sprite", "type": "Bebida sin alcohol"},
-                  {"nombre": "Jugo", "type": "Bebida sin alcohol"},
-                  {"nombre": "Whisky", "type": "Bebida con alcohol"}]
-
-      for pedido in pedidos:
-            controller.tomarPedido(pedido)
 
       # Singleton para corroborar que realmente se aplique
       bar2 = Bar()
