@@ -1,7 +1,12 @@
 
-from domain.Bebida import Bebida, Trago
+from domain.bebida import Bebida, Trago
 
-class BebidaBuilder:
+class TragoBuilder:
+      def __init__(self):
+            self.nombre = ""
+            self.precio = 0
+            self.contenidoAlcohol = 0
+
       def set_nombre(self, nombre):
             self.nombre = nombre
             return self
@@ -10,10 +15,6 @@ class BebidaBuilder:
             self.precio = precio
             return self
 
-      def build(self):
-            return Bebida(self.nombre, self.precio)
-
-class TragoBuilder(BebidaBuilder):
       def set_contenidoAlcohol(self, contenidoAlcohol):
             self.contenidoAlcohol = contenidoAlcohol
             return self
