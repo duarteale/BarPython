@@ -1,5 +1,5 @@
 
-from domain.bebida import Bebida, Trago
+from domain.bebida import Trago
 
 class TragoBuilder:
       def __init__(self):

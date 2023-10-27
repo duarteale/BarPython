@@ -11,6 +11,10 @@ class BarView:
       def pedidoAceptado(self, nombreTrago, nombreBartender):
             print(f"Aquí tiene su trago: {nombreTrago}, preparado por {nombreBartender}, que lo disfrute!")
 
+      menu = [{"nombre": "Sprite", "type": "Bebida sin alcohol", "precio": 800},
+      {"nombre": "Whisky", "type": "Bebida con alcohol", "precio": 1800},
+      {"nombre": "Jugo", "type": "Bebida sin alcohol", "precio": 450}]
+
 class BarController:
       def __init__(self, bar, view):
             self.bar = bar
@@ -24,3 +28,5 @@ class BarController:
                   self.view.pedidoAceptado(trago.nombre, trago.preparado_por.nombreBartender)
             else:
                   print("No puedo servirle esa bebida, no tengo stock.")
+
+controller = BarController(bar)   

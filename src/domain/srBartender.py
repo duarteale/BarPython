@@ -1,4 +1,3 @@
-from src.domain.bebida import Bebida
 from src.controller.bartender import Bartender
 
 class SeniorBartender(Bartender):

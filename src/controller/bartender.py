@@ -1,5 +1,6 @@
+from domain.jrBartender import JuniorBartender
+from domain.srBartender import SeniorBartender
 from src.domain.bebida import Bebida
-
 
 class Bartender:
       def __init__(self, nombre):
@@ -24,3 +25,9 @@ class Bartender:
 
       def hacerTrago(self, pedido):
             pass
+
+      junior_bartender = JuniorBartender("Juan Perez")
+      senior_bartender = SeniorBartender("Andrés Lopez")
+      junior_bartender.set_next(senior_bartender)
+      bar.agregarBartender(junior_bartender)
+      bar.agregarBartender(senior_bartender)
