@@ -8,4 +8,8 @@ class JuniorBartender(Bartender):
             return False
 
       def hacerTrago(self, pedido):
-            return f"{pedido['nombre']} (Bebida sin alcohol) by {self.nombre}"
+            for bartender in self.bartenders:
+                  trago = bartender.prepararTrago(pedido)
+                  if trago:
+                        return  f"{pedido['nombre']} (Bebida sin alcohol) by {self.nombre}"
+            return None
