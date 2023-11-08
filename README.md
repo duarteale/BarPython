@@ -5,7 +5,7 @@ Este proyecto de Python simula un bar que utiliza los patrones de diseño Model-
 Este proyecto de Python simula un bar que utiliza los patrones de diseño Model-View-Controller (MVC), Chain of Responsibility, Singleton y Builder para gestionar la preparación de tragos. El bar cuenta con bartenders que determinan quién prepara cada bebida, ya sea un Junior (Jr.) o un Senior (Sr.), en función de si las bebidas contienen alcohol o no.
 
 
-- Requisitos
+# Requisitos
   Asegúrate de tener Python 3.x instalado en tu sistema.
 
 
@@ -23,11 +23,11 @@ pip install -r requirements.txt
 https://github.com/duarteale/BarPython.git
 
 
-- Uso
+# Uso
   Ejecuta el programa principal desde main.py:
   python main.py
 
-- Patrones de Diseño
+# Patrones de Diseño
   Este proyecto utiliza los siguientes patrones de diseño:
 
 Model-View-Controller (MVC): Se utiliza para separar la lógica de la aplicación en tres componentes: Modelo, Vista y Controlador, lo que facilita la organización del código y la gestión de la interfaz de usuario.
