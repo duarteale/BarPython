@@ -30,13 +30,13 @@ https://github.com/duarteale/BarPython.git
 ## Patrones de Diseño
   Este proyecto utiliza los siguientes patrones de diseño:
 
--Model-View-Controller (MVC): Se utiliza para separar la lógica de la aplicación en tres componentes: Modelo, Vista y Controlador, lo que facilita la organización del código y la gestión de la interfaz de usuario.
+- Model-View-Controller (MVC): Se utiliza para separar la lógica de la aplicación en tres componentes: Modelo, Vista y Controlador, lo que facilita la organización del código y la gestión de la interfaz de usuario.
 
--Chain of Responsibility: Se utiliza para establecer una cadena de objetos que pueden procesar solicitudes en secuencia. En este proyecto, se aplica para que los bartenders junior y senior manejen las bebidas según su contenido de alcohol.
+- Chain of Responsibility: Se utiliza para establecer una cadena de objetos que pueden procesar solicitudes en secuencia. En este proyecto, se aplica para que los bartenders junior y senior manejen las bebidas según su contenido de alcohol.
 
--Singleton: Se utiliza para garantizar que solo haya una instancia de la clase BartenderManager, que gestiona la asignación de bartenders.
+- Singleton: Se utiliza para garantizar que solo haya una instancia de la clase BartenderManager, que gestiona la asignación de bartenders.
 
--Builder: Se utiliza para construir objetos de bebida de manera flexible y parametrizable.
+- Builder: Se utiliza para construir objetos de bebida de manera flexible y parametrizable.
 
 
 ¡Disfruta de tu bar virtual con Python!
