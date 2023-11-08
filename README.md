@@ -24,8 +24,8 @@ https://github.com/duarteale/BarPython.git
 
 
 - Uso
-Ejecuta el programa principal desde main.py:
-python main.py
+--Ejecuta el programa principal desde main.py:
+--python main.py
 
 - Patrones de Diseño
 Este proyecto utiliza los siguientes patrones de diseño:
