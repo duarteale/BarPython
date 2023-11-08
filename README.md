@@ -32,7 +32,7 @@ https://github.com/duarteale/BarPython.git
 
 - Chain of Responsibility: Se utiliza para establecer una cadena de objetos que pueden procesar solicitudes en secuencia. En este proyecto, se aplica para que los bartenders junior y senior manejen las bebidas según su contenido de alcohol.
 
-- Singleton: Se utiliza para garantizar que solo haya una instancia de la clase BartenderManager, que gestiona la asignación de bartenders.
+- Singleton: Se utiliza para garantizar que solo haya una instancia de la clase Bar.
 
 - Builder: Se utiliza para construir objetos de bebida de manera flexible y parametrizable.
 
