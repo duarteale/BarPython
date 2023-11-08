@@ -6,7 +6,7 @@ Este proyecto de Python simula un bar que utiliza los patrones de diseño Model-
 
 
 - Requisitos
-Asegúrate de tener Python 3.x instalado en tu sistema.
+  Asegúrate de tener Python 3.x instalado en tu sistema.
 
 
 1- Clona el repositorio:
@@ -24,11 +24,11 @@ https://github.com/duarteale/BarPython.git
 
 
 - Uso
---Ejecuta el programa principal desde main.py:
---python main.py
+  Ejecuta el programa principal desde main.py:
+  python main.py
 
 - Patrones de Diseño
-Este proyecto utiliza los siguientes patrones de diseño:
+  Este proyecto utiliza los siguientes patrones de diseño:
 
 Model-View-Controller (MVC): Se utiliza para separar la lógica de la aplicación en tres componentes: Modelo, Vista y Controlador, lo que facilita la organización del código y la gestión de la interfaz de usuario.
 
